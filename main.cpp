@@ -11,4 +11,6 @@ int main()
 	double R2 = 5;
 	double R3 = 9;
 	cout << "R0 = " << 1.0 / (1.0 / R1 + 1.0 / R2 + 1.0 / R3) << endl;
+	system("pause");
+	return 0;
 }
