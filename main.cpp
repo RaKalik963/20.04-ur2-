@@ -7,5 +7,10 @@ HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
 
 int main()
 {
-
+	double v = 30;
+	double t = 5;
+	double a = 10;
+	cout << "S = " << v * t + (a * (t * t)) / 2 << endl;
+	system("pause");
+	return 0;
 }
